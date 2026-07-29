@@ -52,11 +52,28 @@ All cleaning was done on a structured **Excel Table** (`Table1_1`) so formulas u
 Six PivotTable blocks were built directly from `Table1`, each answering a distinct business question:
 
 1. **Content Strategy** — Ratio of Movies to TV Shows
+---
+![Pivot Table 1](ratio_of_movies_to_tv_shows/pivot_tables.png)
+
 2. **Content Acquisition & Growth** — Titles added per year; content additions by month
+---
+![Pivot Table 2](years/pivot_tables.png)
+
 3. **Geographic Insights** — Top 10 content-producing countries
+---
+![Pivot Table 3](countries/pivot_tables.png)
+
 4. **Rating & Audience** — Distribution of titles by content rating
+---
+![Pivot Table 4](ratings/pivot_tables.png)
+
 5. **KPIs** — Movie count, TV show count, average seasons per TV show, average movie duration
+---
+![Pivot Table 5](kpis/pivot_tables.png)
+
 6. **Genre Count** — Frequency of each genre/genre-combination and total titles by type
+---
+![Pivot Table 6](genre/pivot_tables.png)
 
 ---
 
