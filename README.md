@@ -53,23 +53,23 @@ Six PivotTable blocks were built directly from `Table1`, each answering a distin
 
 1. **Content Strategy** — Ratio of Movies to TV Shows
 ---
-![Pivot Table 1](pivot_tables/ratio_of_movies_to_tv_shows.png)
+![Pivot Table 1](pivot_tables/ratio_of_movies_to_tv_shows_1.png)
 
 2. **Content Acquisition & Growth** — Titles added per year; content additions by month
 ---
-![Pivot Table 2](pivot_tables/years.png)
+![Pivot Table 2](pivot_tables/years_1.png)
 
 3. **Geographic Insights** — Top 10 content-producing countries
 ---
-![Pivot Table 3](pivot_tables/countries.png)
+![Pivot Table 3](pivot_tables/countries_1.png)
 
 4. **Rating & Audience** — Distribution of titles by content rating
 ---
-![Pivot Table 4](pivot_tables/ratings.png)
+![Pivot Table 4](pivot_tables/ratings_1.png)
 
 5. **KPIs** — Movie count, TV show count, average seasons per TV show, average movie duration
 ---
-![Pivot Table 5](pivot_tables/kpis.png)
+![Pivot Table 5](pivot_tables/kpis_1.png)
 
 6. **Genre Count** — Frequency of each genre/genre-combination and total titles by type
 ---
@@ -79,7 +79,7 @@ Six PivotTable blocks were built directly from `Table1`, each answering a distin
 
 ---
 
-## 📊 Dashboard Visualizations
+## 📊 Dashboard Visualization
 
 The `Dashboard` sheet consolidates the pivot analysis into five charts plus KPI summary callouts:
 
@@ -89,7 +89,7 @@ The `Dashboard` sheet consolidates the pivot analysis into five charts plus KPI 
 
 ---
 
-![Dashboard](dashboard_image/netflix_dashboard.png)
+![Dashboard](dashboard_image/netflix_dashboard_1.png)
 
 ---
 
