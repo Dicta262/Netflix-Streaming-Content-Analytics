@@ -31,7 +31,7 @@ The raw export had the missing-data and formatting issues typical of scraped/exp
 | `Date_Added` | 10 blanks; stored as full datetime | Parsed into separate `Year_Added` and `Month_Added` fields for time-based analysis |
 | `Duration` | Mixed units — `"90 min"` for movies, `"2 Seasons"` for TV shows in one text column | Split into two clean numeric fields: `Movie_Minutes` and `TV_Seasons` |
 | `Listed_In` (genres) | Comma-separated multi-genre string (e.g., "Crime TV Shows, International TV Shows, TV Dramas") | Added a `Genre (Count)` field counting how many genres are tagged per title, enabling genre-density analysis |
-| `Rating` | A small number of rows had duration values ("66 min", "84 min", "74 min") sitting in the rating column — a column-shift artifact from the source file | Flagged and isolated during cleaning rather than silently miscounted in the ratings analysis |
+| `Rating` | A small number of rows had duration values ("66 min", "84 min", "74 min") sitting in the rating column — a column-shift artifact from the source file | Replaced rows containing inconsistent values with "Unknown" |
 
 All cleaning was done on a structured **Excel Table** (`Table1_1`) so formulas use readable structured references instead of cell ranges, and the table auto-expands with new data.
 
@@ -73,7 +73,9 @@ Six PivotTable blocks were built directly from `Table1`, each answering a distin
 
 6. **Genre Count** — Frequency of each genre/genre-combination and total titles by type
 ---
-![Pivot Table 6](pivot_tables/genre.png)
+![Pivot Table 6](pivot_tables/genre1.png)
+
+![Pivot Table 6](pivot_tables/genre2.png)
 
 ---
 
