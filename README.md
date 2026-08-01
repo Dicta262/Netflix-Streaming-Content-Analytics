@@ -89,7 +89,7 @@ The `Dashboard` sheet consolidates the pivot analysis into five charts plus KPI 
 
 ---
 
-![Dashboard](dashboard_image/netflix_dashboard_1.png)
+![Dashboard](dashboard_image/netflix_dashboard2.png)
 
 ---
 
