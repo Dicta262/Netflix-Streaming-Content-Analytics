@@ -106,16 +106,16 @@ The `Dashboard` sheet consolidates the pivot analysis into five charts plus KPI 
 ## ❓ Analytical Questions & Answers
 
 **1. What's the split between Movies and TV Shows?**
-Movies make up **72%** of the catalog (7,819 titles) versus **28%** TV Shows (3,031 titles) — roughly a 2.6:1 ratio. Netflix's library has historically leaned toward film content.
+Movies make up **72%** of the catalog (7,819 titles) versus **28%** TV Shows (3,031 titles), roughly a 2.6:1 ratio. Netflix's library has historically leaned toward film content.
 
 **2. Which year saw the most titles added?**
-**2019** was the peak year with **2,421 titles added**, capping a steady climb from just 2 titles in 2008. Additions slowed slightly in 2020 (2,337) and the partial 2021 data (1,831, reflecting the dataset's cutoff mid-year).
+**2019** was the peak year with **2,421 titles added**, capping a steady climb from just 2 titles in 2008. Additions slowed slightly in 2020 (2,337) and in the partial 2021 data (1,831, reflecting the dataset's cutoff mid-year).
 
 **3. Which countries produce the most content?**
 The **United States** dominates with **3,211 titles**, followed by **India (1,008)** and the **United Kingdom (628)**. Canada, Japan, South Korea, France, and Spain round out the top producers, showing Netflix's international expansion beyond its US base.
 
 **4. Is there seasonality in when content is added?**
-Yes — **July** sees the most additions (1,027 titles), while **February** sees the fewest (698), suggesting a lighter release cadence in Q1.
+Yes. **July** sees the most additions (1,027 titles), while **February** sees the fewest (698), suggesting a lighter release cadence in Q1.
 
 **5. What's the most common content rating?**
 **TV-MA** (mature audiences) is the single largest rating group at **3,755 titles (~35%)**, followed by **TV-14 (2,406)** and **R (1,236)**. Combined, mature-skewing ratings (TV-MA, TV-14, R) account for roughly two-thirds of the catalog.
@@ -124,10 +124,10 @@ Yes — **July** sees the most additions (1,027 titles), while **February** sees
 The average is just **1.8 seasons per TV show**, indicating most series are short-run or get cancelled early rather than becoming long-running franchises.
 
 **7. What's the average movie length?**
-**~100.4 minutes** — in line with a standard theatrical/feature-length runtime.
+**~100.4 minutes**, in line with a standard theatrical/feature-length runtime.
 
 **8. What genres dominate?**
-Standalone genre tags with the highest counts include **Documentaries (424)**, **Stand-Up Comedy (335)**, and **Kids' TV (304)**. Among multi-genre combinations, **"Dramas, International Movies" (487 titles)** and **"Dramas, International Movies, Thrillers" / "Comedies, Dramas, International Movies" (both 300+)** stand out — reinforcing Netflix's heavy investment in international drama content.
+Standalone genre tags with the highest counts include **Documentaries (424)**, **Stand-Up Comedy (335)**, and **Kids' TV (304)**. Among multi-genre combinations, **"Dramas, International Movies" (487 titles)** and **"Dramas, International Movies, Thrillers" / "Comedies, Dramas, International Movies" (both 300+)** stand out, thereby reinforcing Netflix's heavy investment in international drama content.
 
 ---
 
@@ -137,7 +137,7 @@ Standalone genre tags with the highest counts include **Documentaries (424)**, *
 - **Invest in renewing high-performing series.** An average of only 1.8 seasons per show suggests many series are cancelled early; identifying and renewing top-performing titles could improve retention and reduce subscriber churn.
 - **Diversify sourcing beyond the top 3 markets.** The US, India, and UK account for the bulk of content; deeper investment in fast-growing markets like South Korea and Japan (both already strong performers per title count) could capture more international subscriber growth.
 - **Align major releases with proven high-traffic months.** Historical addition patterns show July as the strongest month and February the weakest — release scheduling could be adjusted to smooth out or capitalize on this seasonality.
-- **Standardize data capture at the source.** Recurring issues like duplicate country-name variants and shifted rating/duration values point to a need for stricter data validation in the content-ingestion pipeline, to keep future reporting accurate.
+- **Standardize data capture at the source.** Recurring issues like duplicate country-name variants and shifted rating/duration values point to a need for stricter data validation in the content-ingestion pipeline to keep future reporting accurate.
 
 ---
 
