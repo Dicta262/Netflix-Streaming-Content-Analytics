@@ -1,6 +1,6 @@
 # 📊 Netflix Streaming Content Analysis (Excel Project)
 
-An end-to-end Excel analytics project that cleans, structures, and analyzes a raw catalog of **8,807 Netflix titles** to uncover patterns in content type, growth, geography, ratings, and genre — culminating in an interactive one-page dashboard.
+An end-to-end Excel analytics project that cleans, structures, and analyzes a raw catalog of **8,807 Netflix titles** to uncover patterns in content type, growth, geography, ratings, and genre, culminating in an interactive one-page dashboard.
 
 ---
 
